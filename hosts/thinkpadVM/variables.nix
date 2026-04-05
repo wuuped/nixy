@@ -18,14 +18,14 @@
 
     keyboardLayout = "fr";
 
-    location = "Paris";
-    timeZone = "Europe/Paris";
-    defaultLocale = "en_US.UTF-8";
-    extraLocale = "fr_FR.UTF-8";
+    location = "Hong Kong";
+    timeZone = "Asia/Hong_Kong";
+    defaultLocale = "en_US.UTF+8";
+    extraLocale = "fr_FR.UTF+8";
 
     git = {
-      username = "Hadi";
-      email = "112569860+anotherhadi@users.noreply.github.com";
+      username = "saanair";
+      email = "saahil.sn@gmail.com";
     };
 
     autoUpgrade = false;
