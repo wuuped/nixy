@@ -18,6 +18,9 @@
     # You should let those lines as is
     ./hardware-configuration.nix
     ./variables.nix
+
+    # Virtual machine imports
+    ../../nixos/virtualbox.nix
   ];
 
   home-manager.users."${config.var.username}" = import ./home.nix;

@@ -9,23 +9,23 @@
   ];
 
   config.var = {
-    hostname = "nixy";
-    username = "hadi";
+    hostname = "thinkpadVM";
+    username = "wuuped";
     configDirectory =
       "/home/"
       + config.var.username
       + "/.config/nixos"; # The path of the nixos configuration directory
 
-    keyboardLayout = "fr";
+    keyboardLayout = "us";
 
     location = "Hong Kong";
     timeZone = "Asia/Hong_Kong";
-    defaultLocale = "en_US.UTF+8";
-    extraLocale = "fr_FR.UTF+8";
+    defaultLocale = "en_HK.UTF-8";
+    extraLocale = "en_GB.UTF-8";
 
     git = {
-      username = "saanair";
-      email = "saahil.sn@gmail.com";
+      username = "wuuped";
+      email = "203348087+wuuped@users.noreply.github.com";
     };
 
     autoUpgrade = false;
