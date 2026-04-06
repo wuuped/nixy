@@ -11,8 +11,9 @@
       };
     };
     tmp.cleanOnBoot = true;
-    kernelPackages =
-      pkgs.linuxPackages_latest; # _zen, _hardened, _rt, _rt_latest, etc.
+    # CHANGEME Disabled to use LTS Kernel for virtualisation
+    # kernelPackages =
+    #   pkgs.linuxPackages_latest; # _zen, _hardened, _rt, _rt_latest, etc.
 
     # Silent boot
     kernelParams = [
